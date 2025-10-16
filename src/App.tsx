@@ -10,7 +10,7 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
-    <div className="flex h-screen bg-gradient-to-br from-slate-900 via-teal-900 to-slate-900 overflow-hidden">
+    <div className="flex h-screen bg-gradient-to-br from-white via-cyan-50 to-blue-50 overflow-hidden">
       <Sidebar isOpen={sidebarOpen} setIsOpen={setSidebarOpen} />
       <div className="flex-1 flex flex-col overflow-hidden">
         <Topbar onMenuClick={() => setSidebarOpen(!sidebarOpen)} />

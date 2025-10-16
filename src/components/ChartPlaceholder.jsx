@@ -7,7 +7,7 @@ export default function ChartPlaceholder({ title }) {
           <div className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3">
             <div className="w-12 h-12 rounded-full border-2 border-white/20 border-t-cyan-400 animate-spin"></div>
           </div>
-          <p className="text-white/50 text-sm">
+          <p className="text-green-600 text-sm">
             Grafik akan ditampilkan di sini
           </p>
         </div>

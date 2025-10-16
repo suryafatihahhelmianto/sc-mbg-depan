@@ -42,7 +42,7 @@ export default function MainContent() {
 
         {/* Table Section */}
         <div className="bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 p-6 shadow-2xl">
-          <h2 className="text-lg font-bold text-white mb-4">
+          <h2 className="text-lg font-bold text-green-800 mb-4">
             Aktivitas Terbaru
           </h2>
           <div className="space-y-3">
@@ -52,14 +52,14 @@ export default function MainContent() {
                 className="flex items-center justify-between p-4 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors"
               >
                 <div>
-                  <p className="text-white font-medium">
+                  <p className="text-green-600 font-medium">
                     Pengiriman #{1000 + item}
                   </p>
-                  <p className="text-white/50 text-sm">
+                  <p className="text-green-800 text-sm">
                     Ke Wilayah Jakarta Selatan
                   </p>
                 </div>
-                <span className="px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-xs font-medium">
+                <span className="px-3 py-1 bg-emerald-500/20 text-green-800 rounded-full text-xs font-medium">
                   Terkirim
                 </span>
               </div>
