@@ -10,8 +10,8 @@ export default function SummaryCard({ title, value, icon: Icon, gradient }) {
       <div className="relative z-10">
         <div className="flex items-start justify-between mb-4">
           <div>
-            <p className="text-white/70 text-sm font-medium mb-1">{title}</p>
-            <p className="text-3xl font-bold text-white">{value}</p>
+            <p className="text-green-800 text-sm font-medium mb-1">{title}</p>
+            <p className="text-3xl font-bold text-green-700">{value}</p>
           </div>
           <div
             className={`p-3 rounded-lg bg-gradient-to-br ${gradient} shadow-lg`}
@@ -19,7 +19,7 @@ export default function SummaryCard({ title, value, icon: Icon, gradient }) {
             <Icon className="w-6 h-6 text-white" />
           </div>
         </div>
-        <p className="text-xs text-white/50">+12% dari bulan lalu</p>
+        <p className="text-xs text-green-500">+12% dari bulan lalu</p>
       </div>
     </div>
   );

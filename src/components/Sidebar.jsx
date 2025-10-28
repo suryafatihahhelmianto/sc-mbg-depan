@@ -3,7 +3,7 @@ import {
   FiBox,
   FiTruck,
   FiUsers,
-  FiBarChart3,
+  FiBarChart,
   FiSettings,
 } from "react-icons/fi";
 
@@ -14,14 +14,14 @@ export default function Sidebar({ isOpen, setIsOpen }) {
     { icon: FiTruck, label: "Produksi", id: "produksi" },
     { icon: FiTruck, label: "Distribusi", id: "distribusi" },
     { icon: FiUsers, label: "Pengguna", id: "pengguna" },
-    { icon: FiBarChart3, label: "Laporan", id: "laporan" },
+    { icon: FiBarChart, label: "Laporan", id: "laporan" },
   ];
 
   return (
     <div
       className={`${
         isOpen ? "w-64" : "w-20"
-      } transition-all duration-300 bg-gradient-to-b from-white/90 to-cyan-50/90 backdrop-blur-xl border-r border-white/60 flex flex-col p-4 overflow-y-auto shadow-sm`}
+      } transition-all duration-300 bg-gradient-to-b from-green-100 to-cyan-50/90 backdrop-blur-xl border-r border-white/60 flex flex-col p-4 overflow-y-auto shadow-sm`}
     >
       {/* Logo */}
       <div className="flex items-center justify-center mb-8 h-12">

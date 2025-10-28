@@ -8,7 +8,7 @@ export default function MainContent() {
       title: "Jumlah Bahan Baku",
       value: "2,450",
       icon: FiBox,
-      gradient: "from-cyan-400 to-blue-500",
+      gradient: "from-green-400 to-blue-500",
     },
     {
       title: "Paket Diproduksi",
@@ -36,8 +36,11 @@ export default function MainContent() {
 
         {/* Chart Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <ChartPlaceholder title="Tren Produksi" />
-          <ChartPlaceholder title="Distribusi Wilayah" />
+          <ChartPlaceholder className="text-green-800" title="Tren Produksi" />
+          <ChartPlaceholder
+            className="text-green-800"
+            title="Distribusi Wilayah"
+          />
         </div>
 
         {/* Table Section */}

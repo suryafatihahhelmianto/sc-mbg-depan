@@ -4,7 +4,7 @@ import { FiMenu, FiBell } from "react-icons/fi";
 
 export default function Topbar({ onMenuClick }) {
   return (
-    <div className="h-16 bg-gradient-to-r from-white/90 to-cyan-50/90 backdrop-blur-xl border-b border-white/60 flex items-center justify-between px-6 shadow-sm">
+    <div className="h-16 bg-gradient-to-r from-cyan-50/90 to-green/50 backdrop-blur-xl border-b border-white/60 flex items-center justify-between px-6 shadow-sm">
       {/* Left */}
       <div className="flex items-center gap-4">
         <button
